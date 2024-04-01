@@ -1,8 +1,6 @@
 'use strict'
 
 let year = prompt ("Будь ласка, введіть рік:");
-year = parseInt (year); 
-
 
 if (!isNaN (year) && year >= 0) {
     
@@ -13,6 +11,4 @@ if (!isNaN (year) && year >= 0) {
     } else {
         alert(year + " років");
     }
-} else {
-    alert("Будь ласка, введіть невід'ємне число!");
 }
